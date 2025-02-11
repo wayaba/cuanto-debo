@@ -1,0 +1,8 @@
+body {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  background-color: #1b1b1f;
+  opacity: 0.9;
+  color: #dfdfd6;
+}
