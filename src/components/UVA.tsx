@@ -57,6 +57,7 @@ export const UVA = () => {
         <span className="m-2 text-2xl font-bold">Cálculo deuda</span>
         {indiceUVA ? (
           <div className="flex w-full justify-center max-w-sm items-center space-x-2">
+            <span className="text-sm"> UVAs </span>
             <Input
               type="number"
               onKeyUp={handleKeyPress}
@@ -67,6 +68,7 @@ export const UVA = () => {
               max={8}
               onChange={handleInputChange}
             />
+
             <Button variant="secondary" onClick={handleCalcular}>
               Calcular
             </Button>
